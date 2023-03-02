@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+section {
+    background-color: #b1deef;
+    min-height: 20px;
+    max-width: 50%;
+    margin: 1% auto;
+    text-align: center;
+    padding: 5% auto;
+    border: 1px solid #264653;
+}
+
+h2 {
+    color: #E76F51;
+}
+
+button {
+    margin: 25px 10px;
+    border: 1px solid #299D8F;
+    background-color: #89c8c1;
+    padding: 6px 14px;
+    max-height: 30px;
+    min-height: 30px;
+}
+
+input {
+    margin: 25px 10px;
+    border: 1px solid #E9C46B;
+    max-height: 24px;
+    min-height: 30px;
+}
+
+h3 {
+    color: #F3A261;
+    border: 1px solid #e37011;
+    width: 30%;
+    margin: 2px auto;
+    text-align: center;
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#even,
+#odd {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#even li,
+#odd li {
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+
+#even li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+#odd li a:hover:not(.header) {
+    background-color: #eee;
+}
+
+#image-container {
+    margin: 1% auto;
+    text-align: center;
+    padding: 5% auto;
+}
+
+#image-container>img {
+    object-fit: contain;
+    object-position: 50% 50%;
+    width: 250px;
+}
+
+p {
+    background-color: #b1deef;
+    min-height: 20px;
+    max-width: 30%;
+    margin: 1% auto;
+    text-align: center;
+    padding: 5% auto;
+    border: 1px solid #264653;
+}
+
+li {
+    border: solid 1px #299D8F;
+}
